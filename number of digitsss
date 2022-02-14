@@ -1,0 +1,6 @@
+a= int(input("enter num"))
+no_of_digits= 0 
+while a > 0:
+   a = int(a/10)
+   no_of_digits += 1
+print("Number of Digits: ",no_of_digits)
